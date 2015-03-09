@@ -1,3 +1,3 @@
-# microLogger
+# micro-logger
 
-A minimalist Node.js logger middleware which displays information about incoming server requests to the console.
+A minimalist, light-weight logger middleware that outputs request information to standard output.

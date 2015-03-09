@@ -1,5 +1,7 @@
 
-module.exports = function logger(request, response, next) {
+/* Logs request information to the console. */
+
+module.exports = function(request, response, next) {
   var start  = +new Date()
     , stream = process.stdout
     , url    = request.url
