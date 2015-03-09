@@ -1,0 +1,24 @@
+{
+  "name": "microLogger",
+  "version": "0.1.0",
+  "description": "A minimalist logger middleware that logs request information to standard output.",
+  "main": "logger.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Tomkay94/microLogger.git"
+  },
+  "keywords": [
+    "minimalist",
+    "micro",
+    "logger"
+  ],
+  "author": "Thanasi Karachotzitis <thanasi.karachotzitis@mail.utoronto.ca> (http://thanasi.me)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Tomkay94/microLogger/issues"
+  },
+  "homepage": "https://github.com/Tomkay94/microLogger"
+}
