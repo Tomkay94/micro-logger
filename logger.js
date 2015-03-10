@@ -9,7 +9,7 @@ module.exports = function(request, response, next) {
 
   response.on('finish', function() {
     var duration   = +new Date() - start
-      , logMessage = method + ' to ' + url + '\n\ttook' + duration + 'ms\n\n';
+      , logMessage = '[ ' + duration + ' ms ] ' + method + ' to ' + url + '\n\n';
     stream.write(logMessage);
   });
 
