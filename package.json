@@ -1,6 +1,6 @@
 {
   "name": "micro-logger",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "A minimalist, light-weight logger middleware that outputs request information to standard output.",
   "main": "logger.js",
   "scripts": {
