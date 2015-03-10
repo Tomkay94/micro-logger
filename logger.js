@@ -10,7 +10,7 @@ module.exports = function(request, response, next) {
   response.on('finish', function() {
     var duration   = +new Date() - start
       , logMessage = method + ' to ' + url + '\n\ttook' + duration + 'ms\n\n';
-      stream.write(logMessage);
+    stream.write(logMessage);
   });
 
   next();
